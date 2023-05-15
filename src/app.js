@@ -6,9 +6,9 @@ const secDisplay = document.getElementById('seconds');
 const minDisplay = document.getElementById('minutes');
 const hoursDisplay = document.getElementById('hours');
 
-let secsCounter = 48;
-let minCounter = 59;
-let hourCounter = 12;
+let secsCounter = 0;
+let minCounter = 0;
+let hourCounter = 0;
 
 let intervalID, intervalID_1
 let flag = false;
