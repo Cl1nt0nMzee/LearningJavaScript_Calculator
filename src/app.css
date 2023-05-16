@@ -37,36 +37,43 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    background-color: #191919;
 }
 
 .bodyWrapper {
-    width: 500px;
+    width: 700px;
     height: 500px;
 
     padding: 32px;
     margin-top: 96px;
     margin-bottom: auto;
 
-    background-color: white;
+    background-color: #333333;
     border-radius: 8px;
     box-shadow:2px 4px 10px rgba(0, 0, 0, .2) ;
 }
 ul {
     margin: 32px auto;
-
 }
 
+
 h1 {
-    font-family: 'Givonic Regular';
-    font-size: 28px;
+    font-family: 'Givonic Bold';
+    font-size: 38px;
     line-height: 1.1;
-    color: #0d0d0d;
+    color: #999999;
 }
 p {
     font-family: 'Givonic Bold';
-    font-size: 54px;
-    color: red;
+    font-size: 100px;
+    color: #CCCCCC;
 
+}
+li .caption {
+    font-family: 'Inter Medium';
+    font-size: 12px;
+    line-height: 1;
+    color: #999999;
 }
 
 
