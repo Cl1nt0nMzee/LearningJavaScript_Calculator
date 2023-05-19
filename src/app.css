@@ -124,4 +124,102 @@ li .caption {
 
     display: flex;
     flex-direction: row;
+
+}
+
+.Start {
+
+    display: inline;
+    width: 80px;
+    height: 80px;
+    margin: 3px 6px;
+    
+    border-radius: 45px;
+    color: #E6E6E6;
+    background-color: #02438C;
+    border: none;
+
+    cursor: pointer;
+}
+
+.Start:hover {
+    color: #ffffff;
+    background-color: #0469D9;
+}
+
+.Start:active {
+    background-color: #0084E6;
+}
+
+.Start:focus-visible {
+    color: #ffffff;
+    background-color: #0084E6;
+}
+
+.Pause {
+
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 6px;
+
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 45px;
+    color: #E6E6E6;
+    background-color: #02438C;
+    border: none;
+
+    cursor: pointer;
+}
+
+.Pause:hover {
+    color: #ffffff;
+    background-color: #0469D9;
+}
+
+.Pause:active {
+    background-color: #0084E6;
+}
+
+.Pause:focus-visible {
+    color: #ffffff;
+    background-color: #0084E6;
+}
+
+.Restart {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 45px;
+    color: #E6E6E6;
+    background-color: transparent;
+    border: solid 2px #e6e6e6;
+
+    cursor: pointer;
+}
+
+.Restart:hover {
+    border-color: #ffffff;
+}
+
+.Restart:active {
+    color: #ffffff;
+    background-color: #ffffff10;
+}
+
+.buttonContainer {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+
+    justify-content: flex-start;
+    align-items: center;
 }

@@ -2,6 +2,10 @@ const startButton = document.getElementById('startButton');
 const pauseButton = document.getElementById('pauseButton');
 const resetButton = document.getElementById('resetButton');
 
+const newStart = document.getElementById('123');
+const newPause = document.getElementById('234');
+const newRestart = document.getElementById('345');
+
 const secDisplay = document.getElementById('seconds');
 const minDisplay = document.getElementById('minutes');
 const hoursDisplay = document.getElementById('hours');
@@ -53,9 +57,46 @@ resetButton.addEventListener("click", function () {
     minCounter = 0;
     hourCounter= 0;
 
+    clearInterval(intervalID)
+
     updateDisplay();
     flag = false;
 })
 
 
 
+newStart.addEventListener('click', function () {
+    /* Start Timer */
+    intervalID = setInterval(function () {
+        secsCounter ++; 
+        updateDisplay()}
+    , 1000)
+
+    /* Hide Start Buttton */
+
+    newStart.style.display = "none";
+    newPause.style.display = "inline-flex";
+
+})
+
+newPause.addEventListener('click', function () {
+    /* Pause Timer */
+    clearInterval(intervalID);
+    updateDisplay()
+
+    newStart.style.display = "block";
+    newPause.style.display = "none";
+})
+
+newRestart.addEventListener('click', function () {
+    secsCounter = 0;
+    minCounter = 0;
+    hourCounter= 0;
+
+    clearInterval(intervalID)
+
+    newStart.style.display = "block";
+    newPause.style.display = "none";
+
+    updateDisplay();
+})
