@@ -7,14 +7,14 @@
 @font-face {
     font-family: 'Givonic Bold';
     src: url(/src/assets/Givonic_Fonts/Givonic-Bold.ttf),
-    format("ttf") ;
+    format("truetype") ;
     font-weight: 700;
     font-style: normal;
 }
 @font-face {
     font-family: 'Givonic Regular';
     src: url(/src/assets/Givonic_Fonts/Givonic-Regular.ttf),
-    format("ttf");
+    format("truetype");
     font-weight: 400;
     font-style: normal;
 }
@@ -22,7 +22,7 @@
 @font-face {
     font-family: 'Inter Semibold';
     src: url(/src/assets/Inter_Fonts/Inter-SemiBold.ttf),
-    format("ttf");
+    format("truetype");
     font-weight: 600;
     font-style: normal;
 }
@@ -30,7 +30,7 @@
 @font-face {
     font-family: 'Inter Medium';
     src: url(/src/assets/Inter_Fonts/Inter-Medium.ttf),
-    format("ttf");
+    format("truetype");
     font-weight: 500;
     font-style: normal;
 }
